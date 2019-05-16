@@ -69,5 +69,17 @@ window.onload = function () {
     });
 }
 
-
+var currentBackground = "background1";
+function clickedButton() {
+    if(currentBackground == "background1") {
+        document.body.style.backgroundImage = "url()";
+        document.body.style.backgroundColor = "rgba(188, 241, 181, 0.93)";
+        currentBackground = "background2";
+    }
+    else {
+        document.body.style.backgroundImage = "url('Images/healthyFoods.jpeg')";
+        currentBackground = "background1";
+        document.body.style.backgroundColor = "rgba(255, 255, 255, 0.91)";
+    }
+}
 

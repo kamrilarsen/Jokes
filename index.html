@@ -5,9 +5,12 @@
     <title>Lab 2</title>
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <link rel="stylesheet" href="style.css">
-    <link href='https://fonts.googleapis.com/css?family=Abel' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Krub' rel='stylesheet'>
   </head>
   <body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <button type="button" class="btn btn-outline-dark" id="button" onclick="clickedButton()">Change Background</button>
+    </nav>
     <h1>Check the nutrition of the food you are eating!</h1>
     
     <div class="intro">
@@ -16,7 +19,7 @@
         <input id="foodInput" type="text"></input>
         <input id="foodSubmit" type="submit" value="Submit"></input>
       </form>
-      <p>For example: 4 eggs, 3 pieces of wheat bread, 1 cup milk, and 1 cup orange juice</p>
+      <p>Ex: 4 eggs, 3 pieces of wheat bread, and 1 cup orange juice</p>
     </div>
 
     <div id="nutritionResults"></div>

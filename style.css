@@ -1,22 +1,31 @@
-p {
-    margin-bottom: 0;
+body {
+    font-family: 'Krub';
+    background-image: url("Images/healthyFoods.jpeg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: repeat-y;
+    position: relative;
+    height: 1000px;
+    background-color: rgba(255, 255, 255, 0.91);
+    background-blend-mode: lighten;
 }
 
-h4 {
-    width: 250px;
+h1 {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 h2 {
     margin: 25px;
 }
 
-tr {
-    border-bottom: 1px solid black;
-    border-top: 1px solid black;
+h4 {
+    width: 250px;
 }
 
-.rightalign {
-    text-align: right;
+p {
+    margin-bottom: 0;
 }
 
 table {
@@ -24,13 +33,35 @@ table {
     width: 250px;
 }
 
-.p-flex {
-    margin: 25px;
+tr {
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
 }
 
 td {
     padding-left: 5px;
     padding-right: 5px;
+}
+
+footer, #bottomInfo {
+    text-align: right;
+    margin-right: 2%;
+}
+
+b {
+    font-size: 20px;
+}
+
+.intro {
+    text-align: center;
+}
+
+.rightalign {
+    text-align: right;
+}
+
+.p-flex {
+    margin: 25px;
 }
 
 .tab {
